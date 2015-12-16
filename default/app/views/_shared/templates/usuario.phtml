@@ -59,6 +59,9 @@
                     </li>
                 <?php else: ?>
                     <li>
+                        <?php echo Html::link("usuarios/crear","Nuevo Usuario") ?>
+                    </li>  
+                    <li>
                         <?php echo Html::link("auth/login","Login") ?>
                     </li>                   
                 <?php endif ?>
